@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.us,
+.eu,
+.china,
+.taiwan,
+.korea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    background-color: red;
+    color: white;
+    border: 1px solid yellow;
+    line-height: 180%;
+    font-size: 24px;
+
+    span,
+    span {
+        text-transform: uppercase;
+    }
+
+    .china_paragraph,
+    .taiwan_paragraph,
+    .korea_paragraph {
+        text-transform: capitalize;
+    }
+}
